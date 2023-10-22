@@ -1,5 +1,3 @@
-What is Python
-Summary: in this tutorial, you’ll understand what Python programming language is and why you should start learning Python today.
 
 What is Python programming language
 Python is a high-level, general-purpose, interpreted programming language.
@@ -48,7 +46,3 @@ Python 2.x was released in 2000. The latest version is 2.7 released in 2010. It 
 
 Python 3.x was released in 2008. Basically, Python 3 isn’t compatible with Python 2. And you should use the latest versions of Python 3 for your new projects.
 
-Summary
-Python is an interpreted, high-level, general-purpose programming language.
-Python becomes the solution in many domains from web applications, data analysis, data science, machine learning, and AI.
-Use Python 3 for the new development.
