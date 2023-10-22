@@ -1,7 +1,7 @@
 # Day 2: Learning Python Basics
 - ### Reading Input from User
 - ### Various Keywords in Python
-- ### ## DataTypes in Python 
+- ###  DataTypes in Python 
 - ### How to Create a Method in Python
 
 ## Reading Input from User
