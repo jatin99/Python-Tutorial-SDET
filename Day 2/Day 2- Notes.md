@@ -1,6 +1,7 @@
 # Day 2: Learning Python Basics
 - ### Reading Input from User
 - ### Various Keywords in Python
+- ### ## DataTypes in Python 
 - ### How to Create a Method in Python
 
 ## Reading Input from User
@@ -52,6 +53,28 @@
 | while     | Defines a loop that continues as long as a specified condition is true. |
 | with      | Sets up a context for resource management.    |
 | yield     | Returns a generator, used in generator functions. |
+
+## DataTypes in Python 
+
+-Python supports several data types to represent different kinds of data, allowing you to work with a wide range of information. Here are some of the commonly used data types in Python:
+
+| Data Type        | Description                                           |
+|------------------|-------------------------------------------------------|
+| `int`            | Integer data type represents whole numbers.           |
+| `float`          | Float data type represents floating-point numbers.    |
+| `complex`        | Complex data type represents complex numbers.        |
+| `str`            | String data type represents sequences of characters.  |
+| `bool`           | Boolean data type represents `True` or `False`.        |
+| `list`           | List data type represents an ordered, mutable collection. |
+| `tuple`          | Tuple data type represents an ordered, immutable collection. |
+| `range`          | Range data type represents a sequence of numbers used for iterating. |
+| `dict`           | Dictionary data type represents key-value pairs.      |
+| `set`            | Set data type represents an unordered collection of unique elements. |
+| `frozenset`      | Frozenset data type is an immutable version of a set. |
+| `bytes`          | Bytes data type represents a sequence of bytes.       |
+| `bytearray`     | Bytearray data type is a mutable version of bytes.    |
+| `memoryview`    | Memoryview data type is used to access the internal data of an object. |
+| `NoneType`       | The `None` data type represents a lack of value.      |
 
 ## How to Create a Method in Python
 - In Python, methods are functions defined within a class or associated with an object. Here's how you can create a method in Python:
