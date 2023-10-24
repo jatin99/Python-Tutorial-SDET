@@ -12,6 +12,28 @@ Python is a dynamically typed language, which means that you don't need to expli
 
 - **Duck Typing:** Python follows the principle of "duck typing," which means that it doesn't matter what type a variable is; what matters is whether it behaves like the type you expect. This encourages a more flexible and pragmatic approach to programming.
 
+# Define functions for different animals
+'''
+def dog_speak():
+    return "Woof!"
+
+def cat_speak():
+    return "Meow!"
+
+def duck_speak():
+    return "Quack!"
+'''
+# A function that works with any function that produces a sound
+'''
+def make_speak(animal_sound):
+    return animal_sound()
+'''
+# Using duck typing to make the animals speak
+print(make_speak(dog_speak))  # Outputs: "Woof!"
+print(make_speak(cat_speak))  # Outputs: "Meow!"
+print(make_speak(duck_speak)) # Outputs: "Quack!"
+
+
 However, there are also some potential downsides to dynamic typing:
 
 - **Runtime Errors:** Dynamic typing can lead to runtime errors if you're not careful, as there's no type checking at compile time. This means that type-related errors may only become apparent when you run your code.
