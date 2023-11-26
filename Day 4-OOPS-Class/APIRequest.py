@@ -5,6 +5,7 @@ class APIRequest:
 
     def __init__(self):
         self.response = None
+        self.x =10
 
     def get_request(self, headers, endpoint):
         self.response = requests.get(APIRequest.BASE_URL + endpoint, headers=headers)
@@ -12,7 +13,7 @@ class APIRequest:
 
     def get_statuscode(self):
         return self.response.status_code
-
+    
     def get_json_body(self):
         return self.response.json()
 
